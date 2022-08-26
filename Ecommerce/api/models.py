@@ -5,7 +5,7 @@ from django.contrib.auth.models import User
 # Create your models here.
 
 
-
+#####Product######
 class Product(models.Model):
     category =(
         ('Mobile','Mobile'),
@@ -34,7 +34,7 @@ class Product(models.Model):
 
  
 
-###########-------CATEGORY-------#########
+###########-------Customer-------#########
 
 class Customer(models.Model):
     State = (
